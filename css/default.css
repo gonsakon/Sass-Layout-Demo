@@ -1,0 +1,397 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+a:active, a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+mark {
+  background: yellow;
+  color: black;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+small {
+  font-size: 80%;
+}
+
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1;
+  font-size: 16px;
+  color: #292929;
+}
+
+a {
+  text-decoration: none;
+}
+
+.slide, .content, .list {
+  zoom: 1;
+}
+.slide:before, .content:before, .list:before {
+  content: "";
+  display: table;
+}
+.slide:after, .content:after, .list:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background: url('/images/bg.jpg?1368084010');
+}
+
+.wrap {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  height: 115px;
+  margin-bottom: 35px;
+}
+.header h1 a {
+  display: block;
+  background: url("../images/logo.png");
+  width: 172px;
+  height: 83px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.topbar {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+}
+.topbar a {
+  float: left;
+  margin-left: 15px;
+}
+.topbar .fb {
+  display: block;
+  background: url("../images/dot-facebook.png");
+  width: 23px;
+  height: 23px;
+}
+.topbar .tweet {
+  display: block;
+  background: url("../images/dot-tweet.png");
+  width: 23px;
+  height: 23px;
+}
+
+.menu {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+.menu h2 {
+  display: none;
+}
+.menu li {
+  float: left;
+}
+.menu a {
+  display: block;
+  margin-left: 35px;
+  color: #292929;
+  font-weight: bold;
+}
+.menu a:hover {
+  color: #01a5ca;
+}
+
+.slide {
+  height: 415px;
+  margin-bottom: 35px;
+}
+
+.slide-left {
+  width: 640px;
+  float: left;
+}
+
+.slide-right {
+  width: 300px;
+  float: left;
+  height: inherit;
+  background: #292929;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px;
+}
+.slide-right h2 {
+  font-size: 45px;
+  color: #01a5ca;
+  margin-bottom: 20px;
+}
+.slide-right p {
+  color: #949494;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+.slide-right .more {
+  background: #3f3f3f;
+  padding: 10px 25px;
+  color: white;
+}
+.slide-right .more:hover {
+  color: #01a5ca;
+}
+
+.introduce {
+  background: white;
+  padding: 20px;
+  margin-bottom: 35px;
+  line-height: 1.8;
+}
+.introduce em {
+  color: #01a5ca;
+}
+
+.content {
+  margin-bottom: 35px;
+  padding: 45px 45px 20px 45px;
+  background: white;
+}
+.content h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.content h2 em {
+  color: #01a5ca;
+}
+
+.latest {
+  width: 575px;
+  float: left;
+}
+
+.list {
+  margin-bottom: 20px;
+}
+.list h3 {
+  margin-left: 220px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.list p {
+  margin-left: 220px;
+  line-height: 1.8;
+}
+
+.img {
+  float: left;
+}
+.img img {
+  border: 5px solid #f4f4f4;
+}
+
+.side {
+  float: right;
+  width: 240px;
+}
+
+.service li a {
+  display: block;
+  padding-left: 20px;
+  background: url('/images/dot-list.jpg?1382111913') no-repeat 0 50%;
+  color: #292929;
+  margin-bottom: 15px;
+}
+.service li a:hover {
+  color: #01a5ca;
+}
+
+.find-text {
+  border: 1px solid #f4f4f4;
+  color: #bebebe;
+  text-indent: 1em;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.find-btn {
+  padding: 10px 15px;
+  color: #01a5ca;
+  border: none;
+  background: #f4f4f4;
+}
+.find-btn:hover {
+  color: #292929;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 35px;
+  line-height: 1.8;
+}
+.footer a {
+  color: #01a5ca;
+}

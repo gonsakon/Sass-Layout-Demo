@@ -1,0 +1,138 @@
+body
+	background: image-url('bg.jpg')
+.wrap
+	width: $width
+	margin: 0 auto
+.header
+	position: relative
+	height: 115px
+	margin-bottom: 35px
+	h1 a 
+		display: block
+		+bg('logo.png')
+		position: absolute
+		top: 20px
+		left: 10px
+.topbar
+	position: absolute
+	right: 0px
+	top: 15px
+	a 
+		float: left
+		margin-left: 15px
+	.fb
+		display: block
+		+bg('dot-facebook.png')
+	.tweet
+		display: block
+		+bg('dot-tweet.png')
+.menu
+	position: absolute
+	bottom: 0
+	right: 15px
+	h2 
+		display: none 
+	li 
+		float: left 
+	a 
+		display: block
+		margin-left: 35px
+		color: $text-color
+		font-weight: bold
+		&:hover
+			color: $hot-color
+.slide
+	@extend %clearfix
+	height: 415px
+	margin-bottom: 35px
+.slide-left
+	width: 640px
+	float: left 
+.slide-right
+	width: $width - 640px
+	float: left
+	height: inherit
+	background: #292929
+	+box-sizing(border-box)
+	padding: 40px
+	h2
+		font-size: 45px
+		color: $hot-color
+		margin-bottom: 20px
+	p 
+		color: #949494
+		line-height: $line-height
+		margin-bottom: 35px
+	.more
+		background: #3F3F3F
+		padding: 10px 25px
+		color: #fff
+		&:hover
+			color: $hot-color
+.introduce
+	background: #fff 
+	padding: 20px
+	margin-bottom: 35px
+	line-height: $line-height
+	em 
+		color: $hot-color
+.content
+	margin-bottom: 35px
+	padding: 45px 45px 20px 45px 
+	@extend %clearfix
+	background: #fff
+	h2
+		font-size: 20px
+		font-weight: bold
+		margin-bottom: 20px
+		em 
+			color: $hot-color
+.latest
+	width: 575px
+	float: left 
+.list
+	@extend %clearfix
+	margin-bottom: 20px
+	h3 
+		margin-left: 220px
+		font-weight: bold
+		margin-bottom: 10px
+	p 
+		margin-left: 220px 
+		line-height: $line-height
+.img 
+	float: left
+	img 
+		border: 5px solid $border-color
+
+.side 
+	float: right 
+	width: 240px
+.service
+	li a 
+		display: block
+		padding-left: 20px 
+		background: image-url('dot-list.jpg') no-repeat 0 50%
+		color: $text-color
+		margin-bottom: 15px
+		&:hover
+			color: $hot-color
+.find-text
+	border: 1px solid $border-color
+	color: #BEBEBE
+	text-indent: 1em
+	padding: 10px
+	margin-bottom: 10px
+.find-btn
+	padding: 10px 15px 
+	color: $hot-color
+	border: none
+	background: #F4F4F4
+	&:hover
+		color: $text-color
+.footer
+	text-align: center
+	margin-bottom: 35px
+	line-height: $line-height
+	a 
+		color: $hot-color
